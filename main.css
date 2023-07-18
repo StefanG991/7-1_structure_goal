@@ -1,0 +1,68 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: #333; }
+
+body, html {
+  height: 100%; }
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+.main-content {
+  flex: 1 0 auto; }
+
+.button {
+  padding: 1em;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px; }
+
+.card {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1em;
+  margin-bottom: 1em; }
+
+.card-header {
+  font-weight: bold;
+  margin-bottom: 0.5em; }
+
+.card-body {
+  margin-bottom: 1em; }
+
+.header {
+  padding: 1em;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e7e7e7; }
+
+.footer {
+  padding: 1em;
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+  text-align: center; }
+
+.container {
+  width: 80%;
+  margin: 0 auto; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap; }
+
+.col {
+  flex: 1;
+  padding: 1em; }
+
+.home {
+  background-color: #fff; }
